@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float x;
+    cout << "...Program To Check If A Number Is Positive Or Negative..." << endl;
+    cout << "Enter Your Number: ";
+    cin >>x ;
+    if (x>0){
+        cout << "Your Number Is Positive" <<endl;
+    }else if (x<0) {
+        cout << "Your Number Is Negative" <<endl;
+    }else {
+        cout << "Your Number Is Neutral" <<endl;
+    }
+    return 0;
+}
